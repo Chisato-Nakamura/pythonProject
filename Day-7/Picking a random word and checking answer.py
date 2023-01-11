@@ -14,7 +14,8 @@ while True:
         break
 
 #Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
-if guess in chosen_word:
-    print("Matched")
-else:
-    print("Doesn't match")
+for letter in chosen_word:
+  if guess == chosen_word:
+    print("Right")
+  else:
+    print("Wrong")
