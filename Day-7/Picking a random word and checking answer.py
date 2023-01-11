@@ -11,7 +11,7 @@ while True:
     guess = input("Guess a letter: ").lower()
     n = len(guess)
     if n == 1:
-        break #a
+        break
 
 #Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 if guess in chosen_word:
