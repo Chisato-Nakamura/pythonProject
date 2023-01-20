@@ -40,8 +40,7 @@ print(f"You chose:\n {rps[choice]}")
  
 
 random_computer = random.randint(0,2)
-computer = rps[random_computer]
-print(f"Computer chose:\n {computer}")
+print(f"Computer chose:\n {rps[random_computer]}")
 
 
 #user chose 0
