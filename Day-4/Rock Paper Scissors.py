@@ -1,3 +1,4 @@
+# Go to https://replit.com/@appbrewery/rock-paper-scissors-start?v=1
 import random
 
 rock = '''
@@ -44,24 +45,33 @@ print("Computer chose:")
 random_computer = random.randint(0,2)
 computer = rps[random_computer]
 print(computer)
- 
-if (choice == 0) and (random_computer == 0):
-  print("Draw")
-elif (choice == 0) and (random_computer == 1):
-  print("You lose")
-elif (choice == 0) and (random_computer == 2):
-   print("You win")
-elif (choice == 1) and (random_computer == 0):
-  print("You win")
-elif (choice == 1) and (random_computer == 1):
-  print("Draw")
-elif (choice == 1) and (random_computer == 2):
-  print("You lose")
-elif (choice == 2) and (random_computer == 0):
-  print("You lose")
-elif (choice == 2) and (random_computer == 1):
-  print("You win")
-else:
-  print("Draw")
+
+
+#user chose 0
+if choice == 0:
+  if random_computer == 0:
+    print("Draw")
+  elif random_computer == 1:
+    print("Lose")
+  else:
+    print("You win")
+    
+#user chose 1
+if choice == 1:
+  if random_computer == 0:
+    print("Win")
+  elif random_computer == 1:
+    print("Draw")
+  else:
+    print("Lose")
+
+#user chose 2
+if choice == 2:
+  if random_computer == 0:
+    print("Lose")
+  elif random_computer == 1:
+    print("Win")
+  else:
+    print("Draw")
 
 print("-")
