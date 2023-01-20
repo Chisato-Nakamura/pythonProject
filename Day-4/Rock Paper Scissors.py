@@ -36,15 +36,12 @@ scissors = '''
 rps = [rock, paper, scissors]
 
 choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
-print("You chose:")
-print(rps[choice])
+print(f"You chose:\n {rps[choice]}")
  
- 
-print("Computer chose:")
- 
+
 random_computer = random.randint(0,2)
 computer = rps[random_computer]
-print(computer)
+print(f"Computer chose:\n {computer}")
 
 
 #user chose 0
