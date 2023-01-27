@@ -1,3 +1,4 @@
+#have already guessed
 from replit import clear
 import random
 import hangman_art
