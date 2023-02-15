@@ -2,7 +2,8 @@
 
 ![python](./banner.png)
 
-All projects ideas come from [100 Days of Code: The Complete Python Pro Bootcamp for 2023](https://www.udemy.com/course/100-days-of-code/)
+All projects are based on [100 Days of Code: The Complete Python Pro Bootcamp for 2023](https://www.udemy.com/course/100-days-of-code/)
+
 
 
 ## 🔰Beginner
@@ -21,3 +22,25 @@ All projects ideas come from [100 Days of Code: The Complete Python Pro Bootcamp
 - Day 12: Scope & Number Guessing Game
 - Day 13: Debugging: How to Find and Fix Errors in your Code
 - Day 14: Higher Lower Game Project
+
+
+
+## 📖Intermediate
+
+- Day 15: Local Development Environment Setup & the Coffee Machine
+- Day 16: Object Oriented Programming (OOP)
+- Day 17: The Quiz Project & The Benefits of OOP
+- Day 18: Turtle & the Graphical User Interface (GUI)
+- Day 19: Instances, State and Higher Order Functions
+- Day 20: Build the Snake Game Part 1: Animation & Coordinates
+- Day 21: Build the Snake Game Part 2: Inheritance & List Slicing
+- Day 22: Build Pong: The Famous Arcade Game
+- Day 23: The Turtle Crossing Capstone Project
+- Day 24: Files, Directories and Paths
+- Day 25: Working with CSV Data and the Pandas Library
+- Day 26: List Comprehension and the Nato Alphabet
+- Day 27: Tkinter, *args, *kwargs and Creating GUI Programs
+- Day 28: Tkinter, Dynamic Typing and the Pomodoro GUI Application
+- Day 29: Building a Password Manager GUI App with Tkinter
+- Day 30: Errors, Exceptions and JSON Data: Improving the Password Manager
+- Day 31: Flash Card App Capstone Project
