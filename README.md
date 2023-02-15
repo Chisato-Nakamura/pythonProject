@@ -24,7 +24,6 @@ All projects are based on [100 Days of Code: The Complete Python Pro Bootcamp fo
 - Day 14: Higher Lower Game Project
 
 
-
 ## 📖Intermediate
 
 - Day 15: Local Development Environment Setup & the Coffee Machine
