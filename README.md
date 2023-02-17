@@ -6,14 +6,14 @@ All projects are based on [100 Days of Code: The Complete Python Pro Bootcamp fo
 
 
 
-## 🔰Beginner
+## 🔰 Beginner
 
 - [Day 1:](https://github.com/Chisato-Nakamura/pythonProject/tree/master/Day-1) Working with Variables in Python to Manage Data
 - [Day 2:](https://github.com/Chisato-Nakamura/pythonProject/tree/master/Day-2) Understanding Data Types and How to Manipulate Strings
 - [Day 3:](https://github.com/Chisato-Nakamura/pythonProject/tree/master/Day-3) Control Flow and Logical Operators
 - [Day 4:](https://github.com/Chisato-Nakamura/pythonProject/tree/master/Day-4) Randomisation and Python Lists
-- Day 5: Python Loops
-- Day 6: Python Functions & Karel
+- [Day 5:](https://github.com/Chisato-Nakamura/pythonProject/tree/master/Day-5) Python Loops
+- [Day 6:](https://github.com/Chisato-Nakamura/pythonProject/tree/master/Day-6) Python Functions & Karel
 - [Day 7:](https://github.com/Chisato-Nakamura/pythonProject/tree/master/Day-7) Hangman
 - [Day 8:](https://github.com/Chisato-Nakamura/pythonProject/tree/master/Day-8) Function Parameters & Caesar Cipher
 - [Day 9:](https://github.com/Chisato-Nakamura/pythonProject/tree/master/Day-9) Dictionaries, Nesting and the Secret Auction
@@ -24,7 +24,7 @@ All projects are based on [100 Days of Code: The Complete Python Pro Bootcamp fo
 - Day 14: Higher Lower Game Project
 
 
-## 📖Intermediate
+## 📖 Intermediate
 
 - Day 15: Local Development Environment Setup & the Coffee Machine
 - Day 16: Object Oriented Programming (OOP)
@@ -45,7 +45,7 @@ All projects are based on [100 Days of Code: The Complete Python Pro Bootcamp fo
 - Day 31: Flash Card App Capstone Project
 
 
-## 🖥️Intermediate+
+## 🖥️ Intermediate+
 - Day 32: Send Email (smtplib) & Manage Dates (datetime) - Automated Birthday Wisher
 - Day 33: API Endpoints & API Parameters - ISS Overhead Notifier
 - Day 34: API Practice - Creating a GUI Quiz App
@@ -75,7 +75,7 @@ All projects are based on [100 Days of Code: The Complete Python Pro Bootcamp fo
 - Day 58: Web Foundation Boostrap
 
 
-## 🏆Advanced
+## 🏆 Advanced
 - Day 59: Blog Capstone Project Part 2 - Adding Styling
 - Day 60: Make POST Requests with Flask and HTML Forms
 - Day 61: Building Advanced Forms with Flask-WTForms
@@ -100,7 +100,7 @@ All projects are based on [100 Days of Code: The Complete Python Pro Bootcamp fo
 - Day 80: Capstone Project - Predict House Prices
 
 
-## 💎Professional Portfolio Projects
+## 💎 Professional Portfolio Projects
 - Day 81: Text to Morse Code Converter
 - Day 82: Portfolio Website
 - Day 83: Tic Tac Toe
