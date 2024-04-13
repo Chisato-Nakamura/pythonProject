@@ -1,58 +1,57 @@
-#have already guessed
-from replit import clear
 import random
 import hangman_art
 import hangman_words
+from replit import clear
 
-# print hangman logo
+# print logo
 print(hangman_art.logo)
 
-chosen_word = random.choice(hangman_words.word_list)
-word_length = len(chosen_word)
+# generate a random word
+random_word = random.choice(hangman_words.word_list)
+print(hangman_art.stages[6])
+
+# generate as many blanks as letters in word
+num_letter = ""
+letter_list = []
+for x in range(len(random_word)):
+    num_letter += "_"
+    letter_list += "_"
+print(num_letter)
+
+life = 6
 end_of_game = False
-lives = 6
-guessed = []
+while end_of_game == False:
+    # Ask the user to guess a letter
+    while end_of_game == False:
+      letter = input("Guess a letter: ").lower()
+      clear()
+      count = len(letter)
+      if count == 1:
+        break
+      else:
+        print("Choose ONLY ONE letter.")
+      
+    # check if the guessed letter in the word
+    count = 0
+    if letter in letter_list:
+      print(f"You've already gussed {letter}")
+      
+    for x in range(len(random_word)):
+        if random_word[x] == letter:
+            letter_list[x] = letter
+            count += 1 
+  
+    if count == 0:
+      life -= 1
+      print(f"You gussed {letter}, that's not in the word. you lose a life.")
 
-# Create blanks
-display = []
-for _ in range(word_length):
-    display += "_"
-
-while not end_of_game:
-    while True:
-        guess = input("Guess a letter: ").lower()
-        clear()  # clear the screen everytime user guessed a lettera
-        count = len(guess)
-        if count == 1:
-            break
-
-    if guess in guessed:
-        print("\nYou have already guessed this letter. Try again\n")
-        have_guessed = True
-    else:
-        guessed.append(guess)
-        have_guessed = False
-
-    # Check guessed letter
-    # Specify the position where the letter needs to be replaced
-    for position in range(word_length):
-        if guess == chosen_word[position]:
-            display[position] = guess
-
-    # Join all the elements in the list and turn it into a String.
-    print(f"{' '.join(display)}")
-
-    # If guess is not a letter in the chosen_word, then reduce 'lives' by 1.
-    # If lives goes down to 0 then the game should stop and it should print "You lose."
-    if guess not in chosen_word and have_guessed == False:
-        lives -= 1
-        if lives == 0:
-            end_of_game = True
-            print("You lose.")
-
-    # If display doesn't contain a blank print"You win."
-    if "_" not in display:
-        end_of_game = True
-        print("You win.")
-
-    print(hangman_art.stages[lives])
+    print(''.join(letter_list))
+    print(hangman_art.stages[life])
+    
+  
+    if '_' not in ''.join(letter_list):
+      print("You win")
+      end_of_game = True
+    elif life == 0:
+      end_of_game = True
+      print("game over")
