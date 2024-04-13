@@ -54,4 +54,4 @@ while end_of_game == False:
       end_of_game = True
     elif life == 0:
       end_of_game = True
-      print("game over")
+      print(f"Game Over. The answer is: {random_word}.")
